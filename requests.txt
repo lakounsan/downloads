@@ -1,0 +1,6 @@
+pip install requests
+pip freeze > requirements.txt
+
+git add requirements.txt
+git commit -m "Fix missing requests dependency"
+git push origin main
